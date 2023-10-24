@@ -1,19 +1,14 @@
-Case Scenario
+# Case Scenario
 As the Linux Administrator for fast-growing company, you have been tasked with creating, modifying, and removing user accounts from the Linux server. The company has just hired 9 new employees to fill 3 newly designed departments. The departments that have been created are Engineering, Sales and IS. The server must be setup with the appropriate files, folders, users, groups and permissions to ensure a successful launch of the newly designed departments.
 Objectives
-Create a directory at the root (/) of the file system for each department. This name should reflect the department name that will use the directory.
-
-Create a group for each department. This name should reflect the department name that the group will be assigned.
-
-Create an administrative user for each of the departments.
-
-The user will have a Bash login shell.
-The user will belong to the respective group for each department. This will need to be the user’s primary group.
-
-Create two additional users for each department.
-
-The users will have a Bash login shell.
-The users will belong to their respective group for each department. This will need to be the user’s primary group.
+- Create a directory at the root (/) of the file system for each department. This name should reflect the department name that will use the directory.
+- Create a group for each department. This name should reflect the department name that the group will be assigned.
+- Create an administrative user for each of the departments.
+  The user will have a Bash login shell.
+  The user will belong to the respective group for each department. This will need to be the user’s primary group.
+- Create two additional users for each department.
+  The users will have a Bash login shell.
+  The users will belong to their respective group for each department. This will need to be the user’s primary group.
 
 For security reasons, the following modifications will need to be made to each of the departments' respective directories:
 
