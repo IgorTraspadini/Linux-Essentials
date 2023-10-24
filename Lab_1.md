@@ -1,7 +1,7 @@
 # Case Scenario
 As the Linux Administrator, you have been tasked with creating, modifying, and removing user accounts from the Linux server. The company has just hired 9 new employees to fill 3 newly designed departments. The departments that have been created are Engineering, Sales and IS. The server must be setup with the appropriate files, folders, users, groups and permissions to ensure a successful launch of the newly designed departments.
 
-##Objectives
+## Objectives
 - Create a directory at the root (/) of the file system for each department. This name should reflect the department name that will use the directory.
 - Create a group for each department. This name should reflect the department name that the group will be assigned.
 - Create an administrative user for each of the departments.
@@ -18,12 +18,12 @@ Ensure that only the owner of a file in the department’s directory can delete 
 Normal users in each department will have full access (Read, Write and Execute) to their respective department folders.
 The department folders will ONLY be accessible by users/administrators in each of the respective departments. Ensure that no one else will have permissions to the folders.
 
-##Create a document in each of the department directories.
+## Create a document in each of the department directories.
 The ownerships on this file will be the same as the directory it is located in.
 The document should contain only one line of text that states, “This file contains confidential information for the department.”
 This file can be read by any user in the department, but can only be modified by the department administrator. No one else has permissions to this file.
 
-##Deliverables
+## Deliverables
 - Use the appropriate command to verify each user and group has been created.
 - Use the appropriate command to verify each user’s group assignment.
 - Use the appropriate command to verify the directory creation and the permission settings.
